@@ -81,3 +81,11 @@ Bennett University
 Email <mailto:gaurav.tripathi@bennett.edu.in>
 
 LinkedIn <https://www.linkedin.com/in/gauravt50/>
+
+## AI assistance disclosure
+
+OpenAI Codex assisted with local Python/Jupyter environment setup, launch scripts,
+review of the Practical 03 evaluation workflow, and preparation of a submission
+export and draft model-choice justification. Notebook outputs preserve the saved
+student work; passing a notebook self-check does not independently validate the
+evaluation methodology.

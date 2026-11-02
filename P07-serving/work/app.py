@@ -47,11 +47,9 @@ def predict(order: Order):
     return Prediction(delivery_min=round(minutes, 1),
                       model_version=app.version)
 
-
-
 @app.get("/model-info")
 def model_info():
-    "Describe the model this service is running."
+    """Describe the model this service is running."""
     return {
         "features": FEATURES,
         "model_type": type(model).__name__,

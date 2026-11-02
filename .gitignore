@@ -1,0 +1,11 @@
+# Local Python environment and generated caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+# Local notebook runtime contains authentication secrets
+.jupyter-runtime/
+.env
+.env.*
+!.env.example
